@@ -1,9 +1,10 @@
-A collection of classes to compute baseline and linear response of populations of spiking neurons \\
-in the integral or differential framework.\\
-See Gerstner et al book [http://neuronaldynamics.epfl.ch/] for the spike response model of neurons and related integral approach.
-See Richardson 2007 for the differential approach on the LIF model.
+NeuroTheory (neurtheor) module:
+A collection of classes to compute baseline and linear response of populations of spiking neurons in the integral or differential framework.
+See Gerstner et al book [ http://neuronaldynamics.epfl.ch/ ] for the spike response model of neurons and related integral approach.
+See Richardson 2007 [ http://link.aps.org/doi/10.1103/PhysRevE.76.021919 ] for the differential approach on the LIF model.
 
-USAGE (see also my repo: 2015_pop_response):
+USAGE (see also my repo: 2015_pop_response [ https://github.com/adityagilra/2015_spiking_population_response ] ):
+A)
 Integral Approach:
     from neurtheor.IntegralLinResp import IntegralLinResp
 
@@ -58,8 +59,12 @@ Integral Approach:
     #basicax.set_xlim([0.0,0.05])
     legend()
 
+B)
 Interacting populations:
 IntegralPols.py
 
+C)
 Differential Approach:
 See DiffLIF.py
+
+(caution: might still have some bugs!)
