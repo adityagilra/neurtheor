@@ -3,6 +3,8 @@ A collection of classes to compute baseline and linear response of populations o
 See Gerstner et al book [ http://neuronaldynamics.epfl.ch/ ] for the spike response model of neurons and related integral approach.
 See Richardson 2007 [ http://link.aps.org/doi/10.1103/PhysRevE.76.021919 ] for the differential approach on the LIF model.
 
+All code in this repository is under the GNU GPL v3.0 (c) Aditya Gilra, 2015.
+
 USAGE (see also my repo: 2015_pop_response [ https://github.com/adityagilra/2015_spiking_population_response ] ):
 A)
 Integral Approach:
